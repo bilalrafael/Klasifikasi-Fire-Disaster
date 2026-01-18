@@ -1,0 +1,23 @@
+Deskripsi Proyek
+
+Proyek ini bertujuan untuk melakukan klasifikasi citra kebakaran menggunakan pendekatan Deep Learning, khususnya Convolutional Neural Network (CNN) dan Transfer Learning (MobileNetV2). Klasifikasi dilakukan untuk membedakan jenis kebakaran berdasarkan lingkungan terjadinya kebakaran.
+
+Dataset
+
+Dataset yang digunakan dalam penelitian ini diperoleh dari platform Kaggle, yaitu:
+
+Disaster Images Dataset
+-Link dataset:
+https://www.kaggle.com/datasets/varunshankar/disaster-images-dataset
+
+Dataset tersebut memiliki beberapa kategori bencana. Namun, pada penelitian ini tidak seluruh kategori digunakan.
+
+-Subset yang Digunakan
+
+Penelitian ini secara khusus hanya menggunakan subset Fire Disaster, dengan dua kelas berikut:
+
+Urban Fire → kebakaran yang terjadi di area perkotaan
+
+Wild Fire → kebakaran yang terjadi di hutan atau lahan terbuka
+
+Pemilihan subset ini bertujuan untuk memfokuskan penelitian pada klasifikasi citra kebakaran berdasarkan lingkungan terjadinya kebakaran, sehingga analisis dapat dilakukan secara lebih spesifik dan terarah.
